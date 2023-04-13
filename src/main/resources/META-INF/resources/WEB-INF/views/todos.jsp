@@ -5,6 +5,7 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8">
+    <script src="<c:url value="/js/jquery.min.js" />"></script>
     <title>These are your tasks</title>
 
     </head>

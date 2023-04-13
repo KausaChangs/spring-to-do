@@ -4,6 +4,7 @@ package com.example.todo.controller;
 import com.example.todo.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 ;
 
@@ -16,5 +17,10 @@ public class TodoController {
     @RequestMapping("/todo")
     public String getTodos(){
         return "todos";
+    }
+
+    @RequestMapping("/showCreate")
+    public String showCreate(){
+    return "createTodo";
     }
 }
