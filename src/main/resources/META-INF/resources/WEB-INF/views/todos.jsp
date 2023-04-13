@@ -5,6 +5,7 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8">
+    <title>These are your tasks</title>
 
     </head>
     <body>
